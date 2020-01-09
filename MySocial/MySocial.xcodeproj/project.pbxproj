@@ -15,6 +15,13 @@
 		E458A42923C6D9A700CCB5DD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E458A42823C6D9A700CCB5DD /* main.m */; };
 		E458A43323C6D9A700CCB5DD /* MysocialTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E458A43223C6D9A700CCB5DD /* MysocialTests.m */; };
 		E458A43E23C6D9A700CCB5DD /* MysocialUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E458A43D23C6D9A700CCB5DD /* MysocialUITests.m */; };
+		E48C5AC823C6FE60007BDA8E /* FJPersonalPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E48C5AC723C6FE60007BDA8E /* FJPersonalPageViewController.m */; };
+		E48C5AD023C709B4007BDA8E /* 个人中心.png in Resources */ = {isa = PBXBuildFile; fileRef = E48C5ACF23C709B4007BDA8E /* 个人中心.png */; };
+		E48C5AD323C70ADB007BDA8E /* FJContactPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E48C5AD223C70ADB007BDA8E /* FJContactPageViewController.m */; };
+		E48C5AD523C70B6E007BDA8E /* 联系人.png in Resources */ = {isa = PBXBuildFile; fileRef = E48C5AD423C70B6E007BDA8E /* 联系人.png */; };
+		E48C5AD723C70BFE007BDA8E /* 消息.png in Resources */ = {isa = PBXBuildFile; fileRef = E48C5AD623C70BFE007BDA8E /* 消息.png */; };
+		E48C5ADA23C70C28007BDA8E /* FJMessagePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E48C5AD923C70C28007BDA8E /* FJMessagePageViewController.m */; };
+		E48C5ADD23C70F23007BDA8E /* FJSocialTabbarController.m in Sources */ = {isa = PBXBuildFile; fileRef = E48C5ADC23C70F23007BDA8E /* FJSocialTabbarController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +58,17 @@
 		E458A43923C6D9A700CCB5DD /* MysocialUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MysocialUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E458A43D23C6D9A700CCB5DD /* MysocialUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MysocialUITests.m; sourceTree = "<group>"; };
 		E458A43F23C6D9A700CCB5DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E48C5AC623C6FE60007BDA8E /* FJPersonalPageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FJPersonalPageViewController.h; sourceTree = "<group>"; };
+		E48C5AC723C6FE60007BDA8E /* FJPersonalPageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FJPersonalPageViewController.m; sourceTree = "<group>"; };
+		E48C5ACF23C709B4007BDA8E /* 个人中心.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "个人中心.png"; sourceTree = "<group>"; };
+		E48C5AD123C70ADB007BDA8E /* FJContactPageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FJContactPageViewController.h; sourceTree = "<group>"; };
+		E48C5AD223C70ADB007BDA8E /* FJContactPageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FJContactPageViewController.m; sourceTree = "<group>"; };
+		E48C5AD423C70B6E007BDA8E /* 联系人.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "联系人.png"; sourceTree = "<group>"; };
+		E48C5AD623C70BFE007BDA8E /* 消息.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "消息.png"; sourceTree = "<group>"; };
+		E48C5AD823C70C28007BDA8E /* FJMessagePageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FJMessagePageViewController.h; sourceTree = "<group>"; };
+		E48C5AD923C70C28007BDA8E /* FJMessagePageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FJMessagePageViewController.m; sourceTree = "<group>"; };
+		E48C5ADB23C70F23007BDA8E /* FJSocialTabbarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FJSocialTabbarController.h; sourceTree = "<group>"; };
+		E48C5ADC23C70F23007BDA8E /* FJSocialTabbarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FJSocialTabbarController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,8 +119,10 @@
 		E458A41823C6D9A700CCB5DD /* Mysocial */ = {
 			isa = PBXGroup;
 			children = (
+				E48C5ACA23C70410007BDA8E /* 图片 */,
 				E458A41923C6D9A700CCB5DD /* AppDelegate.h */,
 				E458A41A23C6D9A700CCB5DD /* AppDelegate.m */,
+				E48C5AC923C6FE8E007BDA8E /* Controller */,
 				E458A41C23C6D9A700CCB5DD /* ViewController.h */,
 				E458A41D23C6D9A700CCB5DD /* ViewController.m */,
 				E458A41F23C6D9A700CCB5DD /* Main.storyboard */,
@@ -130,6 +150,31 @@
 				E458A43F23C6D9A700CCB5DD /* Info.plist */,
 			);
 			path = MysocialUITests;
+			sourceTree = "<group>";
+		};
+		E48C5AC923C6FE8E007BDA8E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E48C5ADB23C70F23007BDA8E /* FJSocialTabbarController.h */,
+				E48C5ADC23C70F23007BDA8E /* FJSocialTabbarController.m */,
+				E48C5AC623C6FE60007BDA8E /* FJPersonalPageViewController.h */,
+				E48C5AC723C6FE60007BDA8E /* FJPersonalPageViewController.m */,
+				E48C5AD123C70ADB007BDA8E /* FJContactPageViewController.h */,
+				E48C5AD223C70ADB007BDA8E /* FJContactPageViewController.m */,
+				E48C5AD823C70C28007BDA8E /* FJMessagePageViewController.h */,
+				E48C5AD923C70C28007BDA8E /* FJMessagePageViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E48C5ACA23C70410007BDA8E /* 图片 */ = {
+			isa = PBXGroup;
+			children = (
+				E48C5ACF23C709B4007BDA8E /* 个人中心.png */,
+				E48C5AD423C70B6E007BDA8E /* 联系人.png */,
+				E48C5AD623C70BFE007BDA8E /* 消息.png */,
+			);
+			path = "图片";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -236,8 +281,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				E458A42623C6D9A700CCB5DD /* LaunchScreen.storyboard in Resources */,
+				E48C5AD523C70B6E007BDA8E /* 联系人.png in Resources */,
 				E458A42323C6D9A700CCB5DD /* Assets.xcassets in Resources */,
+				E48C5AD723C70BFE007BDA8E /* 消息.png in Resources */,
 				E458A42123C6D9A700CCB5DD /* Main.storyboard in Resources */,
+				E48C5AD023C709B4007BDA8E /* 个人中心.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,7 +310,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E48C5ADD23C70F23007BDA8E /* FJSocialTabbarController.m in Sources */,
 				E458A41E23C6D9A700CCB5DD /* ViewController.m in Sources */,
+				E48C5AC823C6FE60007BDA8E /* FJPersonalPageViewController.m in Sources */,
+				E48C5AD323C70ADB007BDA8E /* FJContactPageViewController.m in Sources */,
+				E48C5ADA23C70C28007BDA8E /* FJMessagePageViewController.m in Sources */,
 				E458A42923C6D9A700CCB5DD /* main.m in Sources */,
 				E458A41B23C6D9A700CCB5DD /* AppDelegate.m in Sources */,
 			);
