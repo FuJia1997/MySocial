@@ -10,6 +10,7 @@
 #import "FJPersonalPageViewController.h"
 #import "FJContactPageViewController.h"
 #import "FJMessagePageViewController.h"
+#import "FJActivityPageViewController.h"
 
 @interface FJSocialTabbarController ()
 
@@ -43,6 +44,16 @@
     contactNVC.tabBarItem.title = @"联系人";
     
     [self addChildViewController:contactNVC];
+    
+    //活动
+    FJActivityPageViewController *activityController = [FJActivityPageViewController new];
+    
+    UINavigationController *activityNVC = [[UINavigationController alloc] initWithRootViewController:activityController];
+    activityController.navigationItem.title = @"活动";
+    activityNVC.tabBarItem.image = [UIImage imageNamed:@"活动.png"];
+    activityNVC.tabBarItem.title = @"活动";
+    
+    [self addChildViewController:activityNVC];
     
     //个人中心
     FJPersonalPageViewController *personalController = [FJPersonalPageViewController new];

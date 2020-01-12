@@ -8,8 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		2F4DC2BCC380ACF356CCAA8D /* libPods-Mysocial.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 370BDA8F561178F84B9E3A7B /* libPods-Mysocial.a */; };
+		E44265E223C9CDBD00A3DAB2 /* RequestData.m in Sources */ = {isa = PBXBuildFile; fileRef = E44265E123C9CDBD00A3DAB2 /* RequestData.m */; };
 		E458A41B23C6D9A700CCB5DD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E458A41A23C6D9A700CCB5DD /* AppDelegate.m */; };
-		E458A41E23C6D9A700CCB5DD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E458A41D23C6D9A700CCB5DD /* ViewController.m */; };
 		E458A42123C6D9A700CCB5DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E458A41F23C6D9A700CCB5DD /* Main.storyboard */; };
 		E458A42323C6D9A700CCB5DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E458A42223C6D9A700CCB5DD /* Assets.xcassets */; };
 		E458A42623C6D9A700CCB5DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E458A42423C6D9A700CCB5DD /* LaunchScreen.storyboard */; };
@@ -23,6 +23,8 @@
 		E48C5AD723C70BFE007BDA8E /* 消息.png in Resources */ = {isa = PBXBuildFile; fileRef = E48C5AD623C70BFE007BDA8E /* 消息.png */; };
 		E48C5ADA23C70C28007BDA8E /* FJMessagePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E48C5AD923C70C28007BDA8E /* FJMessagePageViewController.m */; };
 		E48C5ADD23C70F23007BDA8E /* FJSocialTabbarController.m in Sources */ = {isa = PBXBuildFile; fileRef = E48C5ADC23C70F23007BDA8E /* FJSocialTabbarController.m */; };
+		E4FC830723C82DE200A8E4DB /* FJActivityPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4FC830623C82DE200A8E4DB /* FJActivityPageViewController.m */; };
+		E4FC830923C82F2500A8E4DB /* 活动.png in Resources */ = {isa = PBXBuildFile; fileRef = E4FC830823C82F2500A8E4DB /* 活动.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,11 +48,11 @@
 		163A614408AEA57927190CBF /* Pods-Mysocial.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mysocial.debug.xcconfig"; path = "Target Support Files/Pods-Mysocial/Pods-Mysocial.debug.xcconfig"; sourceTree = "<group>"; };
 		370BDA8F561178F84B9E3A7B /* libPods-Mysocial.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Mysocial.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8535D3931DB09B35E96ADF14 /* Pods-Mysocial.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mysocial.release.xcconfig"; path = "Target Support Files/Pods-Mysocial/Pods-Mysocial.release.xcconfig"; sourceTree = "<group>"; };
+		E44265E023C9CDBD00A3DAB2 /* RequestData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RequestData.h; sourceTree = "<group>"; };
+		E44265E123C9CDBD00A3DAB2 /* RequestData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RequestData.m; sourceTree = "<group>"; };
 		E458A41623C6D9A700CCB5DD /* Mysocial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mysocial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E458A41923C6D9A700CCB5DD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E458A41A23C6D9A700CCB5DD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		E458A41C23C6D9A700CCB5DD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		E458A41D23C6D9A700CCB5DD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		E458A42023C6D9A700CCB5DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E458A42223C6D9A700CCB5DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E458A42523C6D9A700CCB5DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -73,6 +75,9 @@
 		E48C5AD923C70C28007BDA8E /* FJMessagePageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FJMessagePageViewController.m; sourceTree = "<group>"; };
 		E48C5ADB23C70F23007BDA8E /* FJSocialTabbarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FJSocialTabbarController.h; sourceTree = "<group>"; };
 		E48C5ADC23C70F23007BDA8E /* FJSocialTabbarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FJSocialTabbarController.m; sourceTree = "<group>"; };
+		E4FC830523C82DE200A8E4DB /* FJActivityPageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FJActivityPageViewController.h; sourceTree = "<group>"; };
+		E4FC830623C82DE200A8E4DB /* FJActivityPageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FJActivityPageViewController.m; sourceTree = "<group>"; };
+		E4FC830823C82F2500A8E4DB /* 活动.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "活动.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,8 +120,16 @@
 				163A614408AEA57927190CBF /* Pods-Mysocial.debug.xcconfig */,
 				8535D3931DB09B35E96ADF14 /* Pods-Mysocial.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		E44265DF23C9CD0700A3DAB2 /* 请求数据 */ = {
+			isa = PBXGroup;
+			children = (
+				E44265E023C9CDBD00A3DAB2 /* RequestData.h */,
+				E44265E123C9CDBD00A3DAB2 /* RequestData.m */,
+			);
+			path = "请求数据";
 			sourceTree = "<group>";
 		};
 		E458A40D23C6D9A700CCB5DD = {
@@ -144,12 +157,11 @@
 		E458A41823C6D9A700CCB5DD /* Mysocial */ = {
 			isa = PBXGroup;
 			children = (
-				E48C5ACA23C70410007BDA8E /* 图片 */,
 				E458A41923C6D9A700CCB5DD /* AppDelegate.h */,
 				E458A41A23C6D9A700CCB5DD /* AppDelegate.m */,
+				E44265DF23C9CD0700A3DAB2 /* 请求数据 */,
+				E48C5ACA23C70410007BDA8E /* 图片 */,
 				E48C5AC923C6FE8E007BDA8E /* Controller */,
-				E458A41C23C6D9A700CCB5DD /* ViewController.h */,
-				E458A41D23C6D9A700CCB5DD /* ViewController.m */,
 				E458A41F23C6D9A700CCB5DD /* Main.storyboard */,
 				E458A42223C6D9A700CCB5DD /* Assets.xcassets */,
 				E458A42423C6D9A700CCB5DD /* LaunchScreen.storyboard */,
@@ -188,6 +200,8 @@
 				E48C5AD223C70ADB007BDA8E /* FJContactPageViewController.m */,
 				E48C5AD823C70C28007BDA8E /* FJMessagePageViewController.h */,
 				E48C5AD923C70C28007BDA8E /* FJMessagePageViewController.m */,
+				E4FC830523C82DE200A8E4DB /* FJActivityPageViewController.h */,
+				E4FC830623C82DE200A8E4DB /* FJActivityPageViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -198,6 +212,7 @@
 				E48C5ACF23C709B4007BDA8E /* 个人中心.png */,
 				E48C5AD423C70B6E007BDA8E /* 联系人.png */,
 				E48C5AD623C70BFE007BDA8E /* 消息.png */,
+				E4FC830823C82F2500A8E4DB /* 活动.png */,
 			);
 			path = "图片";
 			sourceTree = "<group>";
@@ -310,6 +325,7 @@
 				E48C5AD523C70B6E007BDA8E /* 联系人.png in Resources */,
 				E458A42323C6D9A700CCB5DD /* Assets.xcassets in Resources */,
 				E48C5AD723C70BFE007BDA8E /* 消息.png in Resources */,
+				E4FC830923C82F2500A8E4DB /* 活动.png in Resources */,
 				E458A42123C6D9A700CCB5DD /* Main.storyboard in Resources */,
 				E48C5AD023C709B4007BDA8E /* 个人中心.png in Resources */,
 			);
@@ -337,15 +353,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-Mysocial-checkManifestLockResult.txt",
 			);
@@ -362,9 +374,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				E48C5ADD23C70F23007BDA8E /* FJSocialTabbarController.m in Sources */,
-				E458A41E23C6D9A700CCB5DD /* ViewController.m in Sources */,
 				E48C5AC823C6FE60007BDA8E /* FJPersonalPageViewController.m in Sources */,
 				E48C5AD323C70ADB007BDA8E /* FJContactPageViewController.m in Sources */,
+				E44265E223C9CDBD00A3DAB2 /* RequestData.m in Sources */,
+				E4FC830723C82DE200A8E4DB /* FJActivityPageViewController.m in Sources */,
 				E48C5ADA23C70C28007BDA8E /* FJMessagePageViewController.m in Sources */,
 				E458A42923C6D9A700CCB5DD /* main.m in Sources */,
 				E458A41B23C6D9A700CCB5DD /* AppDelegate.m in Sources */,
@@ -546,6 +559,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = FuJia.Mysocial;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "$(PODS_ROOT)/**";
 			};
 			name = Debug;
 		};
@@ -563,6 +577,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = FuJia.Mysocial;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "$(PODS_ROOT)/**";
 			};
 			name = Release;
 		};
