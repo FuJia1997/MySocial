@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		2F4DC2BCC380ACF356CCAA8D /* libPods-Mysocial.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 370BDA8F561178F84B9E3A7B /* libPods-Mysocial.a */; };
+		E40EF1CE23CC6B2800CD97F1 /* FJModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E40EF1CD23CC6B2800CD97F1 /* FJModel.m */; };
 		E44265E223C9CDBD00A3DAB2 /* RequestData.m in Sources */ = {isa = PBXBuildFile; fileRef = E44265E123C9CDBD00A3DAB2 /* RequestData.m */; };
 		E458A41B23C6D9A700CCB5DD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E458A41A23C6D9A700CCB5DD /* AppDelegate.m */; };
 		E458A42123C6D9A700CCB5DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E458A41F23C6D9A700CCB5DD /* Main.storyboard */; };
@@ -48,6 +49,8 @@
 		163A614408AEA57927190CBF /* Pods-Mysocial.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mysocial.debug.xcconfig"; path = "Target Support Files/Pods-Mysocial/Pods-Mysocial.debug.xcconfig"; sourceTree = "<group>"; };
 		370BDA8F561178F84B9E3A7B /* libPods-Mysocial.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Mysocial.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8535D3931DB09B35E96ADF14 /* Pods-Mysocial.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mysocial.release.xcconfig"; path = "Target Support Files/Pods-Mysocial/Pods-Mysocial.release.xcconfig"; sourceTree = "<group>"; };
+		E40EF1CC23CC6B2800CD97F1 /* FJModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FJModel.h; sourceTree = "<group>"; };
+		E40EF1CD23CC6B2800CD97F1 /* FJModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FJModel.m; sourceTree = "<group>"; };
 		E44265E023C9CDBD00A3DAB2 /* RequestData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RequestData.h; sourceTree = "<group>"; };
 		E44265E123C9CDBD00A3DAB2 /* RequestData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RequestData.m; sourceTree = "<group>"; };
 		E458A41623C6D9A700CCB5DD /* Mysocial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mysocial.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -123,6 +126,15 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		E40EF1CB23CC6B0C00CD97F1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E40EF1CC23CC6B2800CD97F1 /* FJModel.h */,
+				E40EF1CD23CC6B2800CD97F1 /* FJModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		E44265DF23C9CD0700A3DAB2 /* 请求数据 */ = {
 			isa = PBXGroup;
 			children = (
@@ -159,6 +171,7 @@
 			children = (
 				E458A41923C6D9A700CCB5DD /* AppDelegate.h */,
 				E458A41A23C6D9A700CCB5DD /* AppDelegate.m */,
+				E40EF1CB23CC6B0C00CD97F1 /* Model */,
 				E44265DF23C9CD0700A3DAB2 /* 请求数据 */,
 				E48C5ACA23C70410007BDA8E /* 图片 */,
 				E48C5AC923C6FE8E007BDA8E /* Controller */,
@@ -381,6 +394,7 @@
 				E48C5ADA23C70C28007BDA8E /* FJMessagePageViewController.m in Sources */,
 				E458A42923C6D9A700CCB5DD /* main.m in Sources */,
 				E458A41B23C6D9A700CCB5DD /* AppDelegate.m in Sources */,
+				E40EF1CE23CC6B2800CD97F1 /* FJModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

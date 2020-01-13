@@ -10,6 +10,8 @@
 
 @interface RequestData : NSObject
 
-+ (void)requestDataWithUrlString:(NSString *)urlString Data:(NSMutableDictionary **)dic;
+@property (nonatomic, strong)NSDictionary *modelDic;
+
++ (void)requestDataWithUrlString:(NSString *)urlString success:(void (^)(NSDictionary *))success error:(void (^)())error;
 
 @end

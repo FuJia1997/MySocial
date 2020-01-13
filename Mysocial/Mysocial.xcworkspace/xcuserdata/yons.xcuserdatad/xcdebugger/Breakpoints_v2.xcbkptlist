@@ -10,12 +10,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Mysocial/&#x8bf7;&#x6c42;&#x6570;&#x636e;/RequestData.m"
-            timestampString = "600434777.613941"
+            timestampString = "600599657.057407"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "42"
-            endingLineNumber = "42"
-            landmarkName = "+requestDataWithUrlString:Data:"
+            startingLineNumber = "81"
+            endingLineNumber = "81"
+            landmarkName = "-requestDataWithUrlString:"
             landmarkType = "7">
             <Locations>
                <Location
@@ -58,13 +58,77 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Mysocial/&#x8bf7;&#x6c42;&#x6570;&#x636e;/RequestData.m"
-            timestampString = "600434777.614175"
+            timestampString = "600599657.057459"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "43"
-            endingLineNumber = "43"
-            landmarkName = "+requestDataWithUrlString:Data:"
+            startingLineNumber = "82"
+            endingLineNumber = "82"
+            landmarkName = "-requestDataWithUrlString:"
             landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Mysocial/&#x8bf7;&#x6c42;&#x6570;&#x636e;/RequestData.m"
+            timestampString = "600599657.057497"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "91"
+            endingLineNumber = "91"
+            landmarkName = "-requestDataWithUrlString:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Mysocial/&#x8bf7;&#x6c42;&#x6570;&#x636e;/RequestData.m"
+            timestampString = "600599657.057529"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "90"
+            endingLineNumber = "90"
+            landmarkName = "-requestDataWithUrlString:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__40-[RequestData requestDataWithUrlString:]_block_invoke"
+                  moduleName = "Mysocial"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yons/Desktop/MySocial-FJ/Mysocial/Mysocial/%E8%AF%B7%E6%B1%82%E6%95%B0%E6%8D%AE/RequestData.m"
+                  timestampString = "600596717.636497"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "53"
+                  endingLineNumber = "53"
+                  offsetFromSymbolStart = "573">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__copy_helper_block_"
+                  moduleName = "Mysocial"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yons/Desktop/MySocial-FJ/Mysocial/Mysocial/%E8%AF%B7%E6%B1%82%E6%95%B0%E6%8D%AE/RequestData.m"
+                  timestampString = "600596717.638669"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "16">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

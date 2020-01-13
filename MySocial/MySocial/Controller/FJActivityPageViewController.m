@@ -6,10 +6,13 @@
 //  Copyright © 2020年 FuJia. All rights reserved.
 //
 
+#import "FJModel.h"
 #import "RequestData.h"
 #import "FJActivityPageViewController.h"
 
 @interface FJActivityPageViewController ()
+
+@property (nonatomic, strong) FJModel *model;
 
 @property (nonatomic, strong) UIButton *requestButton;
 
@@ -38,11 +41,12 @@
 }
 
 - (void) requestData {
-//    NSDictionary *dic = [NSDictionary dictionaryWithDictionary:[RequestData requestDataWithUrlString:@"http://127.0.0.1/demo.json"]];
-//    NSLog(@"%@", dic[@"name"]);
-    NSMutableDictionary *dic = [NSMutableDictionary dictionary];
-    [RequestData requestDataWithUrlString:@"http://127.0.0.1/demo.json" Data:&dic];
-    NSLog(@"%@", dic);
+    [RequestData requestDataWithUrlString:@"http://127.0.0.1/demo.json" success:^(NSDictionary *dic) {
+        self.model = [FJModel modelWithdic:[NSDictionary dictionaryWithDictionary:dic]];
+        NSLog(@"请求到的数据: %@", self.model.dataDic);
+    } error:^{
+        NSLog(@"请求出错");
+    }];
 }
 
 @end
